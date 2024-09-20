@@ -1,4 +1,4 @@
-
+//WAP to print the given Searching element is present or not...
 package arrays_programs;
 import java.util.Scanner;
 public class ElementIsPresent 
