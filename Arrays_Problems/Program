@@ -1,1 +1,33 @@
 
+package arrays_programs;
+import java.util.Scanner;
+public class ElementIsPresent 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a Size of Array:");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		System.out.println("Enter Element:");
+		for(int i=0; i<size; i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("Enter the search element");
+		int search=sc.nextInt();
+		boolean isPresent=false;
+		for(int i=0; i<size; i++)
+		{
+			if(arr[i]==search)
+			{
+				isPresent=true;
+			}
+		}
+		if(isPresent)
+			System.out.println("Element is Present");
+		else
+			System.out.println("Element is not Present");
+		
+	}
+}
