@@ -1,1 +1,27 @@
+package arrays_programs;
 
+import java.util.Scanner;
+
+public class EvenElementInArray {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Eneter size of Array:");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		for(int i=0; i<size; i++)
+		{
+			System.out.println("Enter element at index pos "+i+" =");
+			arr[i]=sc.nextInt();
+		}
+		//print the element
+		for(int i=0; i<size; i++)
+		{
+			if(arr[i]%2==0)
+			{
+				System.out.println("Even element in Array :"+arr[i]);
+			}
+		}
+	}
+}
