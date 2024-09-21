@@ -1,7 +1,6 @@
 package arrays_programs;
 
 import java.util.Scanner;
-
 public class EvenElementInArray 
 {
 	public static void main(String[] args) 
