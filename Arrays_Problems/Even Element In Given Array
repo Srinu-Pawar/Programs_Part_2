@@ -1,6 +1,6 @@
 //WAP to print the Even Element in an Given Array .
-package arrays_programs;
 
+package arrays_programs;
 import java.util.Scanner;
 public class EvenElementInArray 
 {
