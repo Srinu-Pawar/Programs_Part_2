@@ -1,3 +1,4 @@
+//WAP to print the Even Element in an Given Array .
 package arrays_programs;
 
 import java.util.Scanner;
