@@ -1,3 +1,4 @@
+//WAP to print the Frequency of Elements in Array....
 package arrays_programs;
 
 import java.util.*;
