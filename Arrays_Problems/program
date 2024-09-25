@@ -1,4 +1,4 @@
-
+//WAP to insert the given element into the given Array at las index
 package arrays_programs;
 
 import java.util.Scanner;
