@@ -35,3 +35,14 @@ public class InsertAnElementInArray
 }
 
 //Output :
+Enter the size of Array
+5
+Enter the element into the array
+10
+20
+30
+40
+50
+Enter the insert element
+100
+[10, 20, 30, 40, 50, 100]
