@@ -33,3 +33,5 @@ public class InsertAnElementInArray
 		System.out.println(Arrays.toString(insertElement(arr,n)));
 	}
 }
+
+//Output :
