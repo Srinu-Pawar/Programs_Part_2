@@ -32,3 +32,14 @@ public class ElementIsPresent
 	}
 }
 //Output :
+Enter a Size of Array:
+5
+Enter Element:
+10
+20
+30
+40
+50
+Enter the search element
+60
+Element is not Present
