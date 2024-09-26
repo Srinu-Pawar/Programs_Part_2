@@ -26,3 +26,17 @@ public class EvenElementInArray
 	}
 }
 //Output :
+Eneter size of Array:
+5
+Enter element at index pos 0 =
+1
+Enter element at index pos 1 =
+2
+Enter element at index pos 2 =
+3
+Enter element at index pos 3 =
+4
+Enter element at index pos 4 =
+5
+Even element in Array :2
+Even element in Array :4
