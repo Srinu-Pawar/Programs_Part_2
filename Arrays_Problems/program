@@ -43,3 +43,4 @@ public class InsertElementBasedOnGivenIndex
 		System.out.println(Arrays.toString(insertElement(arr,n,index)));
 	}
 }
+//Output :
