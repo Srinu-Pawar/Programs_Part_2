@@ -44,3 +44,15 @@ public class InsertElementBasedOnGivenIndex
 	}
 }
 //Output :
+Enter the size of Array
+5
+Enter the element 
+10
+20
+30
+40
+50
+Enter the insert element100
+Enter index which you want
+3
+[10, 20, 30, 100, 40, 50]
