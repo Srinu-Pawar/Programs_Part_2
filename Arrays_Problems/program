@@ -27,3 +27,12 @@ public class MaxElementInArray
 	}
 }
 //output :
+Enter the size of array
+5
+Enter the element
+1
+7
+8
+4
+2
+Maximum Element in Array is :8
