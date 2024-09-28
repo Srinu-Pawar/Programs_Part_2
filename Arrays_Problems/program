@@ -26,4 +26,4 @@ public class MaxElementInArray
 		System.out.println("Maximum Element in Array is :"+max);
 	}
 }
-
+//output :
