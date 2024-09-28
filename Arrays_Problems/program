@@ -1,47 +1,29 @@
 
-
 package arrays_programs;
 
 import java.util.Scanner;
-import java.util.Arrays;
-public class InsertElementBasedOnGivenIndex 
+public class MaxElementInArray 
 {
-	public static int[] insertElement(int[] arr, int n, int index)
-	{
-		int[] b=new int[arr.length+1];
-		for(int i=0; i<b.length; i++)
-		{
-			if(i<index)
-			{
-				b[i]=arr[i];
-			}
-			else if(i==index)
-			{
-				b[index]=n;
-			}
-			else
-			{
-				b[i]=arr[i-1];
-			}
-		}
-		return b;
-	}
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the size of Array");
+		System.out.println("Enter the size of array");
 		int size=sc.nextInt();
 		int[] arr=new int[size];
-		System.out.println("Enter the element ");
+		System.out.println("Enter the element");
 		for(int i=0; i<size; i++)
 		{
 			arr[i]=sc.nextInt();
 		}
-		System.out.print("Enter the insert element");
-		int n=sc.nextInt();
-		System.out.println("Enter index which you want");
-		int index=sc.nextInt();
-		System.out.println(Arrays.toString(insertElement(arr,n,index)));
+		int max=arr[0];
+		for(int i=1; i<size; i++)
+		{
+			if(arr[i]>max)
+			{
+				max=arr[i];
+			}
+		}
+		System.out.println("Maximum Element in Array is :"+max);
 	}
 }
 
