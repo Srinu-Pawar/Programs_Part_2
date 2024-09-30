@@ -1,3 +1,5 @@
+//WAP to Print Merging Of Two Arrays 1 and 2
+
 package arrays_programs;
 
 import java.util.Scanner;
