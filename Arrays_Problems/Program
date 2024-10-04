@@ -37,3 +37,15 @@ public class NLeftShiftRotationOfArray
 	}
 }
 //Output :
+
+Enter the Size of Array
+5
+Enter the element one by one
+10
+20
+30
+40
+50
+Enter the n value for n rotation
+3
+[40, 50, 10, 20, 30]
