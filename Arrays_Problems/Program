@@ -1,1 +1,37 @@
 
+
+package arrays_programs;
+
+import java.util.Scanner;
+public class NthLargestElementInArray 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of Array:");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		System.out.println("Enter th N largest you want");
+		int n=sc.nextInt();
+		System.out.println("Enter the Element :");
+		for(int i=0; i<size; i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		//sorting array in discending order
+		for(int i=0; i<size; i++)
+		{
+			for(int j=0; j<size-1; j++)
+			{
+				if(arr[j]<arr[j+1])
+				{
+					int temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;
+				}
+			}
+		}
+		System.out.println(n+" N th largest is:"+arr[n-1]);
+	}
+}
+
