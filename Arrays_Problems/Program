@@ -35,3 +35,14 @@ public class NthLargestElementInArray
 	}
 }
 //Output:
+Enter the size of Array:
+5
+Enter th N largest you want
+2
+Enter the Element :
+10
+50
+30
+20
+40
+2 N th largest is:40
