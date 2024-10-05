@@ -34,4 +34,4 @@ public class NthLargestElementInArray
 		System.out.println(n+" N th largest is:"+arr[n-1]);
 	}
 }
-
+//Output:
