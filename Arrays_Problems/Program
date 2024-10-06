@@ -40,4 +40,15 @@ public class NthLargestElementWithouSorting
 		System.out.println(nth+" th Largest Element in Array is:"+NthLargest);
 	}
 }
-
+//Output
+Enter the size of Array..:
+5
+Enter the Elements
+10
+50
+40
+20
+40
+Enter the nth Largest you want
+2
+2 th Largest Element in Array is:40
