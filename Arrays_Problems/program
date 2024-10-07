@@ -34,6 +34,7 @@ public class NthSmallestElementInArray
 		System.out.println(n+"Nth smallest is"+arr[n-1]);
 	}
 }
+//Output :
 Enter the size of Array :
 5
 Enter the Element
