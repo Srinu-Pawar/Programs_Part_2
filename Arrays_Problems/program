@@ -41,3 +41,15 @@ public class NthSmallestElementWithoutSorting
 		System.out.println(nth+" Nth Smallest Number is :"+NthSmallest);
 	}
 }
+
+Enter the size of Array :
+5
+Enter the Element
+10
+50
+30
+40
+20
+Enter the N th smallest You want
+3
+3Nth smallest is30
