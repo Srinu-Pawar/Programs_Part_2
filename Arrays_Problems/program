@@ -41,7 +41,7 @@ public class NthSmallestElementWithoutSorting
 		System.out.println(nth+" Nth Smallest Number is :"+NthSmallest);
 	}
 }
-
+//Output :
 Enter the size of Array :
 5
 Enter the Element
