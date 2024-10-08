@@ -1,1 +1,43 @@
 
+
+package arrays_programs;
+
+import java.util.Scanner;
+public class NthSmallestElementWithoutSorting 
+{
+	public static void main(String args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Size of Array");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		System.out.println("Enter the Element ");
+		for(int i=0; i<size; i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("Enter the Nth value you want");
+		int nth=sc.nextInt();
+		//find smallest element
+		int NthSmallest=Integer.MIN_VALUE;
+		int count=0;
+		for(int i=0; i<size; i++)
+		{
+			int smallest=Integer.MAX_VALUE;
+			for(int j=0; j<size; j++)
+			{
+				if(arr[j]<smallest && arr[j]>NthSmallest)
+				{
+					smallest=arr[j];
+				}
+			}
+			NthSmallest=smallest;
+			count++;
+			if(count==nth)
+			{
+				break;
+			}
+		}
+		System.out.println(nth+" Nth Smallest Number is :"+NthSmallest);
+	}
+}
