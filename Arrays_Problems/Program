@@ -1,4 +1,4 @@
-
+//WAP to print the Odd index Element and Sum of all Element in aGiven Array....
 package arrays_programs;
 
 import java.util.Scanner;
