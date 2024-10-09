@@ -1,1 +1,32 @@
 
+package arrays_programs;
+
+import java.util.Scanner;
+
+public class OddIndexElementInArray 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Eneter size of array");
+		int size =sc.nextInt();
+		int[] arr=new int[size];
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			System.out.println("Enter Element at index "+i+" =");
+			arr[i]=sc.nextInt();
+		}
+		//print the odd index elements
+		int sum=0;
+		for(int i=0; i<=arr.length-1; i++)
+		{
+			if(i%2==1)
+			{
+				System.out.println("Odd Index Element is "+i+" ="+arr[i]);
+			}
+			sum=sum+arr[i];
+		}
+		System.out.println("Sum of Array is:"+sum);
+	}
+}
+
