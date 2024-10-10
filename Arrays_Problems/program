@@ -26,7 +26,7 @@ public class RemoveDublicateInArray
 		}
 	}
 }
-
+//Output :
 1
 2
 3
