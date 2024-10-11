@@ -1,1 +1,47 @@
 
+
+package arrays_programs;
+
+public class RemoveDublicateInArray2 
+{
+	public static void main(String[] args)
+	{
+		int[] arr= {1,1,2,3,4,1,5,4,3};
+		//find duplicate...
+		for(int i=0; i<arr.length; i++)
+		{
+			for(int j=i+1; j<arr.length; j++)
+			{
+				if(arr[i]==arr[j])
+				{
+					arr[j]=-1;
+				}
+			}
+		}
+		//count the num of non repeated elemnts...
+		int count=0;
+		for(int i=0; i<arr.length; i++)
+		{
+			if(arr[i]!=-1)
+			{
+				count++;
+			}
+		}
+		//create array with count size
+		int[] b=new int[count];
+		//intialize a with b array
+		int j=0;
+		for(int i=0; i<arr.length; i++)
+		{
+			if(arr[i]!=-1)
+			{
+				b[j++]=arr[i];
+			}
+		}
+		//print the b array
+		for(int i=0; i<count; i++)
+		{
+			System.out.print(b[i]+" ");
+		}
+	}
+}
