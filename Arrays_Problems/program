@@ -29,4 +29,16 @@ public class SearchingElementIndex
 		System.out.println("Searching Element Index is:"+index);
 	}
 }
+//
+Enter size of Array
+5
+Enter a Element
+10
+30
+54
+25
+70
+Enter Search Element
+25
+Searching Element Index is:3
 
