@@ -1,1 +1,32 @@
 
+
+package arrays_programs;
+import java.util.Scanner;
+
+public class SearchingElementIndex
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter size of Array");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		System.out.println("Enter a Element");
+		for(int i=0; i<size; i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("Enter Search Element");
+		int search=sc.nextInt();
+		int index=0;
+		for(int i=0; i<size; i++)
+		{
+			if(arr[i]==search)
+			{
+				index=i;
+			}
+		}
+		System.out.println("Searching Element Index is:"+index);
+	}
+}
+
