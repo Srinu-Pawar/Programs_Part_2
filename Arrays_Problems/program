@@ -38,3 +38,14 @@ public class SecLargestElementInArray
 	}
 }
 
+Enter the size of Array:
+5
+Enter the Element
+10
+25
+9
+60
+100
+Sorted Array
+100,60,25,10,9,
+ Second Largest Element is:60
