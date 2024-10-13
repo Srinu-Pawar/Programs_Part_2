@@ -37,7 +37,7 @@ public class SecLargestElementInArray
 		System.out.println("Second Largest Element is:"+arr[1]);
 	}
 }
-
+//Output :
 Enter the size of Array:
 5
 Enter the Element
