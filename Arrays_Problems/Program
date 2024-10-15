@@ -35,3 +35,11 @@ public class SortArrayInDiscendingOrder
 		System.out.println();
 	}
 }
+//Output :
+Enter a Element..
+2
+7
+4
+9
+6
+9,7,6,4,2,
