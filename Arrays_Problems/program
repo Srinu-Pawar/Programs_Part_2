@@ -42,4 +42,13 @@ public class SortPositiveElementInAscendingOrder
 		System.out.println(Arrays.toString(sortPositiveArray(arr)));
 	}
 }
-
+//Output :
+Enter the Size of Array 
+5
+Enter the element
+-8
+-5
+9
+34
+8
+[-8, -5, 8, 9, 34]
