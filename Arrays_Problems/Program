@@ -27,3 +27,13 @@ public class SumOfEvenElement
 		System.out.println("Sum of Even Elelment is :"+sum);
 	}
 }
+//Output :
+Enter a size of Array
+5
+Enter a element in Array
+10
+8
+9
+21
+68
+Sum of Even Elelment is :86
