@@ -34,4 +34,9 @@ public class Anagram
 		}
 	}
 }
-
+//Output :
+Enter a First String :
+race
+Enter a second String :
+care
+Anagram
