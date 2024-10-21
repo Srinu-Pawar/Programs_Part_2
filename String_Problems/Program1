@@ -1,1 +1,37 @@
 
+
+package strings_programs;
+
+import java.util.Scanner;
+import java.util.Arrays;
+public class Anagram 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a First String :");
+		String s1=sc.nextLine();
+		
+		System.out.println("Enter a second String :");
+		String s2=sc.nextLine();
+		
+		char[] a=s1.toCharArray();
+		char[] b=s2.toCharArray();
+		
+		Arrays.sort(a);
+		Arrays.sort(b);
+		
+		s1=String.valueOf(a);
+		s2=String.valueOf(b);
+		
+		if(s1.equals(s2))
+		{
+			System.out.println("Anagram");
+		}
+		else
+		{
+			System.out.println("not Anagram");
+		}
+	}
+}
+
