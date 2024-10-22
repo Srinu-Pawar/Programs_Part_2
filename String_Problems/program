@@ -35,4 +35,9 @@ public class CompareTwoString
 		}
 	}
 }
-
+//Output :
+Enter the first String :
+chinna
+Enter the Second String :
+chinna
+Strings are equals :
