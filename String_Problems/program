@@ -1,1 +1,27 @@
 
+package strings_programs;
+
+import java.util.Scanner;
+public class ConvertCharacterArrayToString 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of Character Array :");
+		int size=sc.nextInt();
+		char[] arr=new char[size];
+		System.out.println("Enter the character element one by one");
+		String ans="";
+		for(int i=0; i<size; i++)
+		{
+			arr[i]=sc.next().charAt(0);
+		}
+		//to storing 
+		for(int i=0; i<size; i++)
+		{
+			ans=ans+arr[i];
+		}
+		System.out.println(ans);
+	}
+}
+
