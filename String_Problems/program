@@ -24,7 +24,7 @@ public class ConvertCharacterArrayToString
 		System.out.println(ans);
 	}
 }
-
+//Output :
 Enter the size of Character Array :
 10
 Enter the character element one by one
