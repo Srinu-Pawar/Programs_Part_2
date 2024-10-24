@@ -23,7 +23,7 @@ public class ConvertStringIntoCharacterArray
 		System.out.println(String.valueOf(arr));
 	}
 }
-
+//Output :
 Enter the String
 Srinu Pawar
 [S, r, i, n, u,  , P, a, w, a, r]
