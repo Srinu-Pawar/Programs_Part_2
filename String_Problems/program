@@ -17,7 +17,7 @@ public class ConvertStringIntoSubString
 		}
 	}
 }
-
+//Output :
 S
 Sr
 Sri
