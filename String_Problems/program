@@ -1,1 +1,36 @@
 
+
+package strings_programs;
+
+import java.util.Scanner;
+public class CountDifferentcharacterInAGivenString 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String :");
+		String str=sc.nextLine();
+		int alphaCount=0;
+		int digitCount=0;
+		int specialCount=0;
+		for(int i=0; i<str.length(); i++)
+		{
+			char ch=str.charAt(i);
+			if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
+			{
+				alphaCount++;
+			}
+			else if(ch>='0' && ch<='9')
+			{
+				digitCount++;
+			}
+			else
+			{
+				specialCount++;
+			}
+		}
+		System.out.println("Count of Alphabet in a String :"+alphaCount);
+		System.out.println("Count of Digit in a String :"+digitCount);
+		System.out.println("Count of Special character in a String :"+specialCount);
+	}
+}
