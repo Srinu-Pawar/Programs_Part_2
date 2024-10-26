@@ -34,7 +34,7 @@ public class CountDifferentcharacterInAGivenString
 		System.out.println("Count of Special character in a String :"+specialCount);
 	}
 }
-
+//Output :
 Enter the String :
 Srinu_Pawar@12345
 Count of Alphabet in a String :10
