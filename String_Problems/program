@@ -33,4 +33,10 @@ public class FindCharacterInAGivenString
 		}
 	}
 }
+//Output :
+Enter a String
+Srinu
+Enter the searching character
+r
+Present given Character
 
