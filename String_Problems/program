@@ -31,3 +31,9 @@ public class FindIndexOfCharacter
 		
 	}
 }
+//Output :
+Enter a String 
+Srinu Pawar
+Enter the Character
+P
+Index of Character is :6
