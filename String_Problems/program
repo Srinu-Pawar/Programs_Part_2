@@ -1,1 +1,33 @@
 
+
+package strings_programs;
+
+import java.util.Scanner;
+public class FindIndexOfCharacter 
+{
+	public static int findIndex(String str, int target)
+	{
+		int index=-1;
+		for(int i=0; i<str.length(); i++)
+		{
+			char ch = str.charAt(i);
+			if(ch == target)
+			{
+				index=i;
+			}
+		}
+		return index;
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a String ");
+		String str=sc.nextLine();
+		
+		System.out.println("Enter the Character");
+		char target = sc.next().charAt(0);
+		
+		System.out.println("Index of Character is :"+findIndex(str,target));
+		
+	}
+}
