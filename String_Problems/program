@@ -31,3 +31,5 @@ public class FindwordInAGivenString
 			System.out.println("Not found");
 	}
 }
+//Output :
+
