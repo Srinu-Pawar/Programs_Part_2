@@ -32,4 +32,9 @@ public class FindwordInAGivenString
 	}
 }
 //Output :
+Enter the String 
+I Love You
+Enter the word 
+Love
+Found
 
