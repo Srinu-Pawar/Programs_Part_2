@@ -21,9 +21,9 @@ public class FindwordInAGivenString
 		for(int i=0; i<a.length; i++)
 		{
 			if(a[i].equals(word))
-            {
-            	isPresent=true;
-            }
+                         {
+            	             isPresent=true;
+                         }
 		}
 		if(isPresent==true)
 			System.out.println("Found");
