@@ -1,1 +1,49 @@
 
+
+package strings_programs;
+
+
+import java.util.Scanner;
+import java.util.Arrays;
+public class ReverseWordInString 
+{
+	public static String reverse(String a)
+	{
+		String ans="";
+		for(int i=a.length()-1; i>=0; i--)
+		{
+			ans=ans+a.charAt(i);
+		}
+		return ans;
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String :");
+		String str = sc.nextLine();
+		
+		String[] a = str.split(" ");
+		System.out.println("Before the reverse :"+Arrays.toString(a));
+		
+		for(int i=0; i<a.length; i++)
+		{
+			a[i]=reverse(a[i]);
+		}
+		System.out.println("After Reversing :"+Arrays.toString(a));
+		
+		String ans="";
+		for(int i=0; i<a.length; i++)
+		{
+			if(i==a.length-1)
+			{
+				ans=ans+a[i];
+			}
+			else
+			{
+				ans=ans+a[i]+" ";
+			}
+		}
+		System.out.println("After Reversing :"+ans);
+	}
+}
+
