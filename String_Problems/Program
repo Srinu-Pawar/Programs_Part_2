@@ -46,4 +46,9 @@ public class ReverseWordInString
 		System.out.println("After Reversing :"+ans);
 	}
 }
-
+//Output :
+Enter the String :
+Hello Srinu How Are Ypu
+Before the reverse :[Hello, Srinu, How, Are, Ypu]
+After Reversing :[olleH, unirS, woH, erA, upY]
+After Reversing :olleH unirS woH erA upY
