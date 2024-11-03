@@ -43,7 +43,7 @@ public class UpperToLowercaseInAString
 		System.out.println("Lower Case :"+lowerCase(str));
 	}
 }
-
+//Output :
 
 Enter the String :
 Srinu Pawar
