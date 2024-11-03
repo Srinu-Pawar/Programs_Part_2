@@ -1,1 +1,46 @@
 
+
+package strings_programs;
+
+import java.util.Scanner;
+public class UpperToLowercaseInAString 
+{
+	public static String lowerCase(String str)
+	{
+		String ans="";
+		for(int i=0; i<str.length(); i++)
+		{
+			char ch=str.charAt(i);
+			if(ch>='A' && ch<='Z')
+			{
+				ch=(char)(ch+32);
+			}
+			ans=ans+ch;
+		}
+		return ans;
+	}
+	
+	public static String upperCase(String str)
+	{
+		String ans="";
+		for(int i=0; i<str.length(); i++)
+		{
+			char ch=str.charAt(i);
+			if(ch>='a' && ch<='z')
+			{
+				ch=(char)(ch-32);
+			}
+			ans=ans+ch;
+		}
+		return ans;
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the String :");
+		String str=sc.nextLine();
+		System.out.println("Upper Case :"+upperCase(str));
+		System.out.println("Lower Case :"+lowerCase(str));
+	}
+}
+
