@@ -44,3 +44,8 @@ public class UpperToLowercaseInAString
 	}
 }
 
+
+Enter the String :
+Srinu Pawar
+Upper Case :SRINU PAWAR
+Lower Case :srinu pawar
