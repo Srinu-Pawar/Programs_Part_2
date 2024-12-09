@@ -27,6 +27,7 @@ public class MinElementInArray
 		System.out.println("Smallest Element in Array :"+min);
 	}
 }
+
 //Output :
 Enter a size of Array
 5
